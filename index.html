@@ -11,36 +11,42 @@
     <h1 class="mb-4">Wybierz pytanie</h1>
     <select id="question_select" class="form-select mb-4">
         <option value="">-- Wybierz pytanie --</option>
-        <option disabled><strong>⎯⎯⎯⎯⎯⎯ O sobie ⎯⎯⎯⎯⎯⎯</strong></option>
-        <option value="1">#1 Kim jestem, skąd pochodzę, coś o sobie</option>
-        <option value="2">#2 Dlaczego wybrałem Collegium Da Vinci</option>
-        <option value="3">#3 Jaki wydział wybrałem i dlaczego</option>
-        <option value="4">#16 Dlaczego studia za granicą</option>
-        <option value="5">#17 Jakie masz plany po studiach</option>
-        <option value="6">#12 Byłeś wcześniej w Polsce</option>
-        <option value="7">#13 Jak długo uczysz się języka polskiego</option>
-        <option value="8">#9 Dlaczego chcesz studiować po polsku</option>
-        <option value="9">#10 Czy planujesz pracować podczas studiów</option>
-
-
-        <option disabled><strong>⎯⎯⎯⎯⎯⎯ Zainteresowania i hobby ⎯⎯⎯⎯⎯⎯</strong></option>
-        <option value="10">#11 Opowiedz o swoim hobby</option>
-        <option value="11">#6 Jaką książkę ostatnio czytałem</option>
-        <option value="12">#7 Jaki film ostatnio oglądałem</option>
-        <option value="13">#8 Dlaczego programowanie</option>
-        <option value="14">#19 Jakiej muzyki Pan/Pani lubi słuchać</option>
-        <option value="15">#20 Jakie jest Pana/Pani ulubione jedzenie</option>
-        <option value="16">#18 Czy Pan podąża za modą</option>
-
-        <option disabled><strong>⎯⎯⎯⎯⎯⎯ Miejsca i podróże ⎯⎯⎯⎯⎯⎯</strong></option>
-        <option value="17">#4 Co mi się podoba w Poznaniu</option>
-        <option value="18">#5 Gdzie lubię spędzać czas</option>
-        <option value="19">#14 Jakie miejsca chcesz odwiedzić w Polsce</option>
-        <option value="20">#15 Jakie kraje chciałbyś odwiedzić</option>
+        <optgroup label="🧍 O sobie ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯">
+            <option value="1">#1 Kim jestem, skąd pochodzę, coś o sobie</option>
+            <option value="2">#2 Dlaczego wybrałem Collegium Da Vinci</option>
+            <option value="3">#3 Jaki wydział wybrałem i dlaczego</option>
+            <option value="4">#16 Dlaczego studia za granicą</option>
+            <option value="5">#17 Jakie masz plany po studiach</option>
+            <option value="6">#12 Byłeś wcześniej w Polsce</option>
+            <option value="7">#13 Jak długo uczysz się języka polskiego</option>
+            <option value="8">#9 Dlaczego chcesz studiować po polsku</option>
+            <option value="9">#10 Czy planujesz pracować podczas studiów</option>
+        </optgroup>
         
-        <option disabled><strong>⎯⎯⎯⎯⎯⎯ Opisy Obrazków ⎯⎯⎯⎯⎯⎯</strong></option>
-        <option value="1.1">#1.1 Ludzie w lesie</option>
-        <option value="1.2">#1.2 Ludzie w parku obok joziora</option>
+
+        <optgroup label="🎯 Zainteresowania i hobby ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯">
+            <option value="10">#11 Opowiedz o swoim hobby</option>
+            <option value="11">#6 Jaką książkę ostatnio czytałem</option>
+            <option value="12">#7 Jaki film ostatnio oglądałem</option>
+            <option value="13">#8 Dlaczego programowanie</option>
+            <option value="14">#19 Jakiej muzyki Pan/Pani lubi słuchać</option>
+            <option value="15">#20 Jakie jest Pana/Pani ulubione jedzenie</option>
+            <option value="16">#18 Czy Pan podąża za modą</option>
+        </optgroup>
+ 
+        
+        <optgroup label="📍 Miejsca i podróże ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯">
+            <option value="17">#4 Co mi się podoba w Poznaniu</option>
+            <option value="18">#5 Gdzie lubię spędzać czas</option>
+            <option value="19">#14 Jakie miejsca chcesz odwiedzić w Polsce</option>
+            <option value="20">#15 Jakie kraje chciałbyś odwiedzić</option>
+        </optgroup>
+        
+        
+        <optgroup label="🖼️ Opisy obrazków ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯">
+            <option value="1.1">#1.1 Ludzie w lesie</option>
+            <option value="1.2">#1.2 Ludzie w parku obok joziora</option>
+        </optgroup>
     </select>
 
     <div id="answer_container" class="bg-white p-4 rounded shadow-sm"></div>
