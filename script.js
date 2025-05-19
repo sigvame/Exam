@@ -120,6 +120,108 @@ const answers = {
               </tbody>
             </table>
           </div>`,
+
+
+    0: `<h3>1. Czasy (Teraźniejszy, Przeszły, Przyszły)</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Czas</th><th>Pytanie</th><th>Przykład (czytać)</th></tr>
+            <tr><td>Teraźniejszy</td><td>Co robię?</td><td>czytam, czytasz, czyta...</td></tr>
+            <tr><td>Przeszły</td><td>Co zrobiłem?</td><td>czytałem, czytałaś...</td></tr>
+            <tr><td>Przyszły</td><td>Co zrobię?</td><td>będę czytać / przeczytam</td></tr>
+          </table> 
+        </div><hr>
+        <h3>2. Odmiana czasowników (teraźniejszy)</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Osoba</th><th>Końcówka</th><th>Przykład</th></tr>
+            <tr><td>ja</td><td>-ę / -m</td><td>robię</td></tr>
+            <tr><td>ty</td><td>-sz</td><td>robisz</td></tr>
+            <tr><td>on/ona</td><td>-a / -e</td><td>robi</td></tr>
+            <tr><td>my</td><td>-my</td><td>robimy</td></tr>
+            <tr><td>wy</td><td>-cie</td><td>robicie</td></tr>
+            <tr><td>oni/one</td><td>-ą / -ją</td><td>robią</td></tr>
+          </table>  
+        </div><hr>
+        <h3>3. Przypadki (Odmiana rzeczowników)</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Przypadek</th><th>Pytanie</th><th>Przykład (dom)</th></tr>
+            <tr><td>Mianownik (Називний)</td><td>kto? co?</td><td>dom</td></tr>
+            <tr><td>Dopełniacz (Родовий)</td><td>kogo? czego?</td><td>domu</td></tr>
+            <tr><td>Celownik (Давальний)</td><td>komu? czemu?</td><td>domowi</td></tr>
+            <tr><td>Biernik (Знахідний)</td><td>kogo? co?</td><td>dom</td></tr>
+            <tr><td>Narzędnik (Орудний)</td><td>z kim? z czym?</td><td>z domem</td></tr>
+            <tr><td>Miejscownik (Місцевий)</td><td>o kim? o czym?</td><td>o domu</td></tr>
+            <tr><td>Wołacz (Кличний)</td><td>–</td><td>domu!</td></tr>
+          </table>  
+        </div><hr>
+        <h3>4. Stopniowanie przymiotników</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Stopień</th><th>Przymiotnik (Прикметник)</th><th>Przysłówek (Прислівник)</th></tr>
+            <tr><td>Równy</td><td>szybki</td><td>szybko</td></tr>
+            <tr><td>Wyższy</td><td>szybszy</td><td>szybciej</td></tr>
+            <tr><td>Najwyższy</td><td>najszybszy</td><td>najszybciej</td></tr>
+          </table>
+        </div><hr>
+        <h3>5. Spójniki (Союзы)</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Polski</th><th>Rosyjski</th></tr>
+            <tr><td>i</td><td>и</td></tr>
+            <tr><td>ale</td><td>но</td></tr>
+            <tr><td>bo</td><td>потому что</td></tr>
+            <tr><td>więc</td><td>поэтому</td></tr>
+            <tr><td>że</td><td>что</td></tr>
+            <tr><td>żeby</td><td>чтобы</td></tr>
+            <tr><td>chociaż</td><td>хотя</td></tr>
+          </table> 
+        </div><hr>
+        <h3>6. Częste czasowniki (Важно запомнить!)</h3>
+        <div class="table-block">
+          <table>
+            <tr><th>Polski</th><th>Rosyjski</th></tr>
+            <tr><td>mówić</td><td>говорить</td></tr>
+            <tr><td>robić</td><td>делать</td></tr>
+            <tr><td>wiedzieć</td><td>знать</td></tr>
+            <tr><td>jeść</td><td>есть</td></tr>
+            <tr><td>iść</td><td>идти</td></tr>
+            <tr><td>pisać</td><td>писать</td></tr>
+            <tr><td>czytać</td><td>читать</td></tr>
+            <tr><td>kupować</td><td>покупать</td></tr>
+            <tr><td>uczyć się</td><td>учиться</td></tr>
+            <tr><td>mieszkać</td><td>жить</td></tr>
+          </table>
+        </div><hr>
+        <h3>7. Aspekt dokonany i niedokonany</h3>
+        <div class="table-block">
+          <table>
+            <tr>
+              <th>Polski (czasownik)</th>
+              <th>Aspekt</th>
+              <th>Ukraiński</th>
+              <th>Tłumaczenie</th>
+            </tr>
+            <tr><td>pisać</td><td>niedokonany</td><td>писати (незавершено)</td><td>писати</td></tr>
+            <tr><td>napisać</td><td>dokonany</td><td>написати (завершено)</td><td>написати</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>czytać</td><td>niedokonany</td><td>читати</td><td>читати</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>przeczytać</td><td>dokonany</td><td>прочитати</td><td>прочитати</td></tr>
+            <tr><td>robić</td><td>niedokonany</td><td>робити</td><td>робити</td></tr>
+            <tr><td>zrobić</td><td>dokonany</td><td>зробити</td><td>зробити</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>mówić</td><td>niedokonany</td><td>говорити</td><td>говорити</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>powiedzieć</td><td>dokonany</td><td>сказати</td><td>сказати</td></tr>
+            <tr><td>brać</td><td>niedokonany</td><td>брати</td><td>брати</td></tr>
+            <tr><td>wziąć</td><td>dokonany</td><td>взяти</td><td>взяти</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>jeść</td><td>niedokonany</td><td>їсти</td><td>їсти</td></tr>
+            <tr style="background-color:rgb(232, 232, 232)"><td>zjeść</td><td>dokonany</td><td>з’їсти</td><td>з’їсти</td></tr>
+          </table>
+        </div>
+        <div class="note">
+          <h4>Пояснення:</h4>
+          <b>Niedokonany вид</b> — дія триває або повторюється (напр. читаю щодня).
+          <b>Dokonany вид</b> — дія завершена або відбудеться один раз (напр. прочитав книгу).
+        </div>`,
 };
   
   document.getElementById("question_select").addEventListener("change", function () {
