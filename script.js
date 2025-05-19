@@ -199,22 +199,25 @@ const answers = {
           <table>
             <tr>
               <th>Polski (czasownik)</th>
-              <th>Aspekt</th>
-              <th>Ukraiński</th>
-              <th>Tłumaczenie</th>
+              <th>Aspekt Niedokonany</th>
+              <th>Aspekt Dokonany</th>
             </tr>
-            <tr><td>pisać</td><td>niedokonany</td><td>писати (незавершено)</td><td>писати</td></tr>
-            <tr><td>napisać</td><td>dokonany</td><td>написати (завершено)</td><td>написати</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>czytać</td><td>niedokonany</td><td>читати</td><td>читати</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>przeczytać</td><td>dokonany</td><td>прочитати</td><td>прочитати</td></tr>
-            <tr><td>robić</td><td>niedokonany</td><td>робити</td><td>робити</td></tr>
-            <tr><td>zrobić</td><td>dokonany</td><td>зробити</td><td>зробити</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>mówić</td><td>niedokonany</td><td>говорити</td><td>говорити</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>powiedzieć</td><td>dokonany</td><td>сказати</td><td>сказати</td></tr>
-            <tr><td>brać</td><td>niedokonany</td><td>брати</td><td>брати</td></tr>
-            <tr><td>wziąć</td><td>dokonany</td><td>взяти</td><td>взяти</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>jeść</td><td>niedokonany</td><td>їсти</td><td>їсти</td></tr>
-            <tr style="background-color:rgb(232, 232, 232)"><td>zjeść</td><td>dokonany</td><td>з’їсти</td><td>з’їсти</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">pisać</td><td>pisać</td><td><b>na</b>pisać</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">czytać</td><td>czytać</td><td><b>prze</b>czytać</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">robić</td><td>robić</td><td><b>z</b>robić</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">mówić</td><td>mówić</td><td><b>powiedzieć</b></td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">brać</td><td>brać</td><td>wziąć</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">jeść</td><td>jeść</td><td>zjeść</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">otwierać</td><td>otwierać</td><td>otworzyć</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">oglądać</td><td>oglądać</td><td>obejrzeć</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">dzwonić</td><td>dzwonić</td><td>zadzwonić</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">kłaść</td><td>kłaść</td><td>położyć</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">widzieć</td><td>widzieć</td><td>zobaczyć</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">iść</td><td>iść</td><td>zadzwonić</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">dawać</td><td>dawać</td><td>dać</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">przychodzić</td><td>przychodzić</td><td>przyjść</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">wychodzić</td><td>wychodzić</td><td>wyjść</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">siedzieć</td><td>siedzieć</td><td>usiąść</td></tr>
           </table>
         </div>
         <div class="note">
