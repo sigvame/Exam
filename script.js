@@ -62,6 +62,64 @@ const answers = {
             Podoba mi się ten obraz, bo ma piękne kolory i głębokie znaczenie. Pokazuje, że sztuka może wyrażać uczucia bez słów.<hr>
           </div>
           <img src="img/van_gogh.jpg" alt="zdjęcia" style="display: block; margin: 10px auto; max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">`,
+
+
+
+    404: `<div class="table-block">
+            <h3>I. Rozpoczęcie rozmowy (Начало беседы)</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Polski</th>
+                  <th>Русский</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Dzień dobry</td><td>Добрый день</td></tr>
+                <tr><td>Nazywam się…</td><td>Меня зовут…</td></tr>
+                <tr><td>Czy dobrze mnie słychać i widać?</td><td>Меня слышно и видно нормально?</td></tr>
+                <tr><td>Jestem gotowy / gotowa</td><td>Я готов / готова</td></tr>
+                <tr><td>Zacznijmy</td><td>Давайте начнём</td></tr>
+                <tr><td>Miło mi</td><td>Очень приятно</td></tr>
+              </tbody>
+            </table>
+          </div><hr>
+          <div class="table-block">
+            <h3>II. Zwroty pomocnicze (Вспомогательные фразы)</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Polski</th>
+                  <th>Русский</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Myślę, że…</td><td>Я думаю, что…</td></tr>
+                <tr><td>Jeśli się nie mylę</td><td>Если не ошибаюсь</td></tr>
+                <tr><td>To ciekawe pytanie</td><td>Это интересный вопрос</td></tr>
+                <tr><td>Trudno powiedzieć, ale…</td><td>Трудно сказать, но…</td></tr>
+                <tr><td>Nie jestem pewien, ale spróbuję</td><td>Не уверен(а), но попробую</td></tr>
+              </tbody>
+            </table>
+          </div><hr>
+          <div class="table-block">
+            <h3>III. Zakończenie rozmowy (Окончание разговора)</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Polski</th>
+                  <th>Русский</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Dziękuję za rozmowę</td><td>Спасибо за разговор</td></tr>
+                <tr><td>Będę nad tym pracować</td><td>Буду над этим работать</td></tr>
+                <tr><td>Bardzo się cieszę, że mi się udało</td><td>Очень рад, что у меня получилось</td></tr>
+                <tr><td>Miło było porozmawiać</td><td>Было приятно поговорить</td></tr>
+                <tr><td>Do widzenia</td><td>До свидания</td></tr>
+              </tbody>
+            </table>
+          </div>`,
 };
   
   document.getElementById("question_select").addEventListener("change", function () {
@@ -70,4 +128,22 @@ const answers = {
     container.innerHTML = answers[val] || "";
   });
 
+  window.addEventListener("DOMContentLoaded", function () {
+    const select = document.getElementById("question_select");
+    select.value = "404";
+    select.dispatchEvent(new Event("change"));
+  });
+
+
+
+
+const scroll_btn = document.getElementById("scroll_top_btn");
+
+window.addEventListener("scroll", function () {
+  scroll_btn.style.display = (window.scrollY > 300) ? "block" : "none";
+});
+
+scroll_btn.addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
   
