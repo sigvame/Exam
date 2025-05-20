@@ -39,6 +39,9 @@ const answers = {
     1.3: `<div>Na obrazku widzimy trzy osoby w parku. To prawdopodobnie chłopak i dwoje dzieci – być może jego siostra i brat.\nChłopak ubrany jest w żółtą kurtkę, spodnie i czarne buty. Młodsze dziecko ma na sobie niebieską kurtkę, spodnie i pomarańczowe kalosze. Ma też czapkę na głowie.\nDrugie dziecko ubrane jest w piaskową kurtkę, dżinsowe spodnie i buty w kropki.\nW tle widzimy jezioro, las i drzewa. Myślę, że to park, a pogoda jest dość pochmurna – wygląda na jesień.\nMoim zdaniem oni odpoczywają i cieszą się przyrodą razem z rodziną.</div><hr><img src="img/obok_jeziora.jpg" alt="Poznań" style="display: block; margin: 20px auto; max-width: 50%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">`,
     1.4: `<div>Na obrazku widzimy jedną osobę – młodą dziewczynę, która wygląda na około 25 lat.\nWygląda na to, że czeka na pociąg albo na nadjeżdżającą lokomotywę. Sprawia wrażenie smutnej – może ma jakieś problemy w życiu albo tęskni za kimś.\nMa na sobie czarną kurtkę, czarne spodnie i buty, a na głowie bordową czapkę. Obok niej stoi czerwona walizka.\nW tle widzimy lokomotywę, która właśnie wjeżdża na stację.\nMyślę, że jest jesień, bo dziewczyna jest ciepło ubrana, a drzewa w tle są bez liści, co wskazuje na późniejszą porę roku.</div><hr>
           <img src="img/dziewczyna_na_stancje.jpg" alt="Poznań" style="display: block; margin: 20px auto; max-width: 50%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">`,
+    1.5: `<div>Na obrazku widzimy osoby, które znajdują się w szkole. Są oni różnie ubrani — niektórzy mają na sobie sweter, inni bluzę. Aktualnie mają lekcję.\nW klasie można zobaczyć różne plakaty na ścianach oraz nauczycielkę, która trzyma coś w rękach. W tle widzimy tablicę z zapisanymi wzorami i równaniami.\nMoim zdaniem to jest lekcja matematyki albo fizyki.</div>
+          <hr><img src="img/w_szkole.jpg" alt="Poznań" style="display: block; margin: 20px auto; max-width: 80%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">`,
+
 
     2.1: `<h3>Przydatne zwroty do opisu obrazu / zdjęcia</h3>
           <ul style="font-size: 16px; line-height: 1.6; text-align: left;">
@@ -225,6 +228,43 @@ const answers = {
           <b>Niedokonany вид</b> — дія триває або повторюється (напр. читаю щодня).
           <b>Dokonany вид</b> — дія завершена або відбудеться один раз (напр. прочитав книгу).
         </div>`,
+
+
+
+    101: `<div>
+            <section id="ekstrenne-pytania">
+              <h2>Ekstrenne pytania</h2>
+
+              <p><strong>Dlaczego odwracasz wzrok podczas odpowiedzi? Podglądasz?</strong><br>
+              Odwracam wzrok, bo tak mi łatwiej zebrać myśli. Kiedy patrzę cały czas w jedno miejsce, trudniej mi mówić. A jak spojrzę raz w kamerę, raz w bok albo w dal, to wtedy łatwiej mi się skupić i powiedzieć to, co chcę.</p><hr>
+
+              <p><strong>1. Co byś zrobił, gdybyś nie dostał się na ten kierunek?</strong><br>
+              Gdybym nie dostał się na ten kierunek, prawdopodobnie wybrałbym inny kierunek związany z biznesem albo zapisałbym się na kursy tworzenia gier komputerowych.</p>
+
+              <p><strong>2. Czy masz jakieś doświadczenie w sprzedaży lub prowadzeniu projektów online?</strong><br>
+              Tak, pracowałem w projekcie online, gdzie tworzyliśmy aplikację do generowania biletów egzaminacyjnych. Program został napisany w języku C#. Używaliśmy m.in. Windows Forms do stworzenia interfejsu użytkownika. Aplikacja losowo wybierała pytania z bazy danych i generowała bilety w formacie PDF.</p>
+
+              <p><strong>3. Który język programowania podoba Ci się najbardziej i dlaczego?</strong><br>
+              Najbardziej lubię tworzyć strony internetowe, ale jeśli chodzi o języki programowania, to moim ulubionym jest C++. Jest trudny, ale bardzo elastyczny i daje dużo możliwości. Lubię go, bo pozwala lepiej zrozumieć, jak działa komputer i jak optymalizować kod.</p>
+
+              <p><strong>4. Jakie anime zrobiło na Tobie największe wrażenie?</strong><br>
+              Największe wrażenie zrobiło na mnie anime „86”. Opowiada o społeczeństwie, w którym ludzie gardzą innymi tylko dlatego, że są inni. Osoby te – nazwane „86” – były wykluczone ze społeczeństwa i wysyłane do specjalnej strefy numer 86. Tam zmuszano ich do walki na wojnie przeciwko Imperium, chociaż oficjalnie twierdzono, że kraj nie ponosi żadnych strat. To bardzo emocjonalna historia o dyskryminacji, niesprawiedliwości, walce o wolność i człowieczeństwo.</p>
+
+              <p><strong>5. Co byś zmienił w polskim systemie edukacji, gdybyś miał taką możliwość?</strong><br>
+              Na razie jeszcze nie wiem, ponieważ nie poznałem jeszcze dobrze polskiego systemu edukacji. Potrzebuję więcej czasu, żeby zrozumieć, jak wszystko działa i jakie są możliwości.</p>
+
+              <p><strong>6. Czy masz jakiegoś idola lub osobę, którą podziwiasz?</strong><br>
+              Nie mogę powiedzieć, że mam jakiegoś idola. Nie interesuję się szczególnie celebrytami ani nie śledzę ich życia. Jednak jest jeden youtuber, którego często oglądam — to MrBeast. Nie wiem, może go Pan/Pani zna.<br>
+              Podoba mi się, że tworzy kreatywne i ciekawe filmy, często pomaga ludziom i robi rzeczy, które mają pozytywny wpływ na innych. Inspiruje mnie jego pomysłowość, pracowitość i to, że dzieli się swoim sukcesem z innymi. Uważam, że to dobry przykład tego, jak można wykorzystać popularność w dobrym celu.</p><hr>
+
+              <h3>Moja rodzina</h3>
+              <p>Nazywam się Artem. Jestem Ukraińcem i mam siedemnaście lat. Mieszkam w mieście Poznań. Jestem studentem.</p>
+              <p>Moja siostra Sofia ma 18 lat, też jest studentką.</p>
+              <p>Mój brat Paweł ma zaledwie 2 lata.</p>
+              <p>Moja matka ma na imię Katya, jest farmaceutką, ale teraz nie pracuje i głównie opiekuje się nami.</p>
+              <p>Mój ojciec Sergiej ma czterdzieści cztery lata, pracuje w firmie logistycznej.</p>
+            </section>
+          </div>`,
 };
   
   document.getElementById("question_select").addEventListener("change", function () {
