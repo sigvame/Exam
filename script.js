@@ -154,7 +154,7 @@ const answers = {
             <tr><td>Dopełniacz (Родовий)</td><td>kogo? czego?</td><td>domu</td></tr>
             <tr><td>Celownik (Давальний)</td><td>komu? czemu?</td><td>domowi</td></tr>
             <tr><td>Biernik (Знахідний)</td><td>kogo? co?</td><td>dom</td></tr>
-            <tr><td>Narzędnik (Орудний)</td><td>z kim? z czym?</td><td>z domem</td></tr>
+            <tr><td>Narzędnik (Орудний)</td><td>kim? czym?</td><td>domem, piękną dziewczyną</td></tr>
             <tr><td>Miejscownik (Місцевий)</td><td>o kim? o czym?</td><td>o domu</td></tr>
             <tr><td>Wołacz (Кличний)</td><td>–</td><td>domu!</td></tr>
           </table>  
@@ -216,7 +216,7 @@ const answers = {
             <tr><td style="background-color:rgb(240, 240, 240)">dzwonić</td><td>dzwonić</td><td>zadzwonić</td></tr>
             <tr><td style="background-color:rgb(240, 240, 240)">kłaść</td><td>kłaść</td><td>położyć</td></tr>
             <tr><td style="background-color:rgb(240, 240, 240)">widzieć</td><td>widzieć</td><td>zobaczyć</td></tr>
-            <tr><td style="background-color:rgb(240, 240, 240)">iść</td><td>iść</td><td>zadzwonić</td></tr>
+            <tr><td style="background-color:rgb(240, 240, 240)">iść</td><td>iść</td><td>pójść</td></tr>
             <tr><td style="background-color:rgb(240, 240, 240)">dawać</td><td>dawać</td><td>dać</td></tr>
             <tr><td style="background-color:rgb(240, 240, 240)">przychodzić</td><td>przychodzić</td><td>przyjść</td></tr>
             <tr><td style="background-color:rgb(240, 240, 240)">wychodzić</td><td>wychodzić</td><td>wyjść</td></tr>
