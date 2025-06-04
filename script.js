@@ -235,28 +235,24 @@ const answers = {
           <section id="ekstrenne-pytania">
             <h2>Ekstrenne pytania</h2>
 
-            <p><strong>Dlaczego odwracasz wzrok podczas odpowiedzi? Podglądasz?</strong><br>
-            Odwracam wzrok, bo tak mi łatwiej zebrać myśli. Kiedy patrzę cały czas w jedno miejsce, trudniej mi mówić. A jak spojrzę raz w kamerę, raz w bok albo w dal, to wtedy łatwiej mi się skupić i powiedzieć to, co chcę.</p><hr>
+            <p><strong>1. Dlaczego studenci szukają pracy dodatkowej?</strong><br>
+            Studenci szukają pracy, żeby mieć własne pieniądze i być bardziej niezależni. Czasami potrzebują wsparcia finansowego, żeby zapłacić za mieszkanie, jedzenie albo studia.</p><hr>
 
-            <p><strong>1. Co byś zrobił, gdybyś nie dostał się na ten kierunek?</strong><br>
-            Gdybym nie dostał się na ten kierunek, prawdopodobnie wybrałbym inny kierunek związany z biznesem albo zapisałbym się na kursy tworzenia gier komputerowych.</p>
+            <p><strong>2. Jakie umiejętności są potrzebne studentom do pracy?</strong><br>
+            Przydatne są: punktualność, odpowiedzialność, komunikatywność, umiejętność pracy w zespole oraz podstawowe umiejętności komputerowe.</p>
 
-            <p><strong>2. Czy masz jakieś doświadczenie w sprzedaży lub prowadzeniu projektów online?</strong><br>
-            Tak, pracowałem w projekcie online, gdzie tworzyliśmy aplikację do generowania biletów egzaminacyjnych. Program został napisany w języku C#. Używaliśmy m.in. Windows Forms do stworzenia interfejsu użytkownika. Aplikacja losowo wybierała pytania z bazy danych i generowała bilety w formacie PDF.</p>
+            <p><strong>3. Co interesuje studentów, kiedy szukają pracy?</strong><br>
+            Studenci zwykle pytają o godziny pracy, wysokość wynagrodzenia, elastyczny grafik i kiedy dostaną wypłatę. Ważne jest też, czy praca nie będzie kolidowała z zajęciami.</p>
 
-            <p><strong>3. Który język programowania podoba Ci się najbardziej i dlaczego?</strong><br>
-            Najbardziej lubię tworzyć strony internetowe, ale jeśli chodzi o języki programowania, to moim ulubionym jest C++. Jest trudny, ale bardzo elastyczny i daje dużo możliwości. Lubię go, bo pozwala lepiej zrozumieć, jak działa komputer i jak optymalizować kod.</p>
+            <p><strong>4. Jakie umiejętności są ważne dla studentów?</strong><br>
+            Ważne są: organizacja czasu, komunikacja, samodzielność, umiejętność pracy pod presją oraz gotowość do nauki nowych rzeczy.</p>
 
-            <p><strong>4. Jakie anime zrobiło na Tobie największe wrażenie?</strong><br>
-            Największe wrażenie zrobiło na mnie anime „86”. Opowiada o społeczeństwie, w którym ludzie gardzą innymi tylko dlatego, że są inni. Osoby te – nazwane „86” – były wykluczone ze społeczeństwa i wysyłane do specjalnej strefy numer 86. Tam zmuszano ich do walki na wojnie przeciwko Imperium, chociaż oficjalnie twierdzono, że kraj nie ponosi żadnych strat. To bardzo emocjonalna historia o dyskryminacji, niesprawiedliwości, walce o wolność i człowieczeństwo.</p>
+            <p><strong>5. Komu łatwiej znaleźć pracę — studentowi z doświadczeniem czy bez?</strong><br>
+            Łatwiej jest studentowi z doświadczeniem, bo pracodawca wie, że już pracował i zna podstawowe obowiązki. Ale osoby bez doświadczenia też mają szansę, jeśli są chętne do pracy.</p>
 
-            <p><strong>5. Co byś zmienił w polskim systemie edukacji, gdybyś miał taką możliwość?</strong><br>
-            Na razie jeszcze nie wiem, ponieważ nie poznałem jeszcze dobrze polskiego systemu edukacji. Potrzebuję więcej czasu, żeby zrozumieć, jak wszystko działa i jakie są możliwości.</p>
-
-            <p><strong>6. Czy masz jakiegoś idola lub osobę, którą podziwiasz?</strong><br>
-            Nie mogę powiedzieć, że mam jakiegoś idola. Nie interesuję się szczególnie celebrytami ani nie śledzę ich życia. Jednak jest jeden youtuber, którego często oglądam — to MrBeast. Nie wiem, może go Pan/Pani zna.<br>
-            Podoba mi się, że tworzy kreatywne i ciekawe filmy, często pomaga ludziom i robi rzeczy, które mają pozytywny wpływ na innych. Inspiruje mnie jego pomysłowość, pracowitość i to, że dzieli się swoim sukcesem z innymi. Uważam, że to dobry przykład tego, jak można wykorzystać popularność w dobrym celu.</p><hr>
-
+            <p><strong>6. Dlaczego firmy zatrudniają studentów bez doświadczenia?</strong><br>
+            Bo mogą ich łatwo przeszkolić. Studenci są elastyczni, otwarci i szybko się uczą. Dla wielu firm ważniejsze jest nastawienie niż doświadczenie.</p>
+            
             <h3>Moja rodzina</h3>
             <p>Nazywam się Artem. Jestem Ukraińcem i mam siedemnaście lat. Mieszkam w mieście Poznań. Jestem studentem.</p>
             <p>Moja siostra Sofia ma 18 lat, też jest studentką. Mój brat Paweł ma zaledwie 2 lata. Moja matka ma na imię Katya, jest farmaceutką, ale teraz nie pracuje i głównie opiekuje się nami. Mój ojciec Sergiej ma czterdzieści cztery lata, pracuje w firmie logistycznej.</p>
